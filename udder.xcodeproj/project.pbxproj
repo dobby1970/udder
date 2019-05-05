@@ -10,10 +10,10 @@
 		E35C3374227F075700A68F97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35C3373227F075700A68F97 /* AppDelegate.swift */; };
 		E35C3376227F075700A68F97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35C3375227F075700A68F97 /* ViewController.swift */; };
 		E35C3379227F075700A68F97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35C3377227F075700A68F97 /* Main.storyboard */; };
-		E35C337B227F075800A68F97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E35C337A227F075800A68F97 /* Assets.xcassets */; };
 		E35C337E227F075800A68F97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35C337C227F075800A68F97 /* LaunchScreen.storyboard */; };
 		E35C3389227F075800A68F97 /* udderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35C3388227F075800A68F97 /* udderTests.swift */; };
 		E35C3394227F075800A68F97 /* udderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35C3393227F075800A68F97 /* udderUITests.swift */; };
+		E35C33A2227F0A6500A68F97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E35C33A1227F0A6500A68F97 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		E35C3373227F075700A68F97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E35C3375227F075700A68F97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E35C3378227F075700A68F97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E35C337A227F075800A68F97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E35C337D227F075800A68F97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E35C337F227F075800A68F97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E35C3384227F075800A68F97 /* udderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = udderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +46,7 @@
 		E35C338F227F075800A68F97 /* udderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = udderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E35C3393227F075800A68F97 /* udderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = udderUITests.swift; sourceTree = "<group>"; };
 		E35C3395227F075800A68F97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E35C33A1227F0A6500A68F97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Downloads/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +100,7 @@
 				E35C3373227F075700A68F97 /* AppDelegate.swift */,
 				E35C3375227F075700A68F97 /* ViewController.swift */,
 				E35C3377227F075700A68F97 /* Main.storyboard */,
-				E35C337A227F075800A68F97 /* Assets.xcassets */,
+				E35C33A1227F0A6500A68F97 /* Assets.xcassets */,
 				E35C337C227F075800A68F97 /* LaunchScreen.storyboard */,
 				E35C337F227F075800A68F97 /* Info.plist */,
 			);
@@ -230,7 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E35C337E227F075800A68F97 /* LaunchScreen.storyboard in Resources */,
-				E35C337B227F075800A68F97 /* Assets.xcassets in Resources */,
+				E35C33A2227F0A6500A68F97 /* Assets.xcassets in Resources */,
 				E35C3379227F075700A68F97 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
